@@ -114,6 +114,9 @@ Abrimos con Python el puerto 80, donde se encuentra nuestro `pwned.js`.
 ![image](https://github.com/user-attachments/assets/d9fb5817-56f7-4177-91c9-bb655895b98e)
 
 Ponemos un comentario
+
+
+
 ![image](https://github.com/user-attachments/assets/2f28b883-fbdb-4f20-837a-029608be1659)
 
 
@@ -122,9 +125,13 @@ Usuario: achilles,
 Contraseña: h2sBr9gryBunKdF9
 
 
+
 ![image](https://github.com/user-attachments/assets/b96c42ea-07e4-43a0-9c64-8a78a4265ea6)
 
 Nos autenticamos como **achilles** en http://symfonos.local:3000 
+
+
+
 ![image](https://github.com/user-attachments/assets/4110883e-2d2d-4e41-95d6-5d8daa7710b0)
 
 -----
@@ -150,6 +157,9 @@ Preg_replace
 curl -s -X POST "http://symfonos.local:5000/ls2o4g/v1.0/auth/login" 
 
 Luego encontraremos que me pide un campo "username" y un campo "password".
+
+
+
 ![image](https://github.com/user-attachments/assets/335a9400-6486-436c-9680-594080a86d9c)
 
 
