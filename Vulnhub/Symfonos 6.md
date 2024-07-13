@@ -172,6 +172,9 @@ Luego encontraremos que me pide un campo "username" y un campo "password".
 
 Esto nos dará un json web token (pero no tenemos el secreto), asi que por ahora no nos sirve.
 Vemos que el "id":1 -> Nos va a servir para explotar el preg_replace 
+
+
+
 ![image](https://github.com/user-attachments/assets/f5923926-b674-44f6-bc7c-9c8019f50b0c)
 
 
@@ -184,6 +187,9 @@ Vemos que indicando una petición por `PATCH`, y pasando el `id` (que es 1), pod
 ![image](https://github.com/user-attachments/assets/c8da2743-dffe-4681-a9a6-f85f9b298fdb)
 
 Al parecer necesitamos poner un campo "text"
+
+
+
 ![image](https://github.com/user-attachments/assets/d3b97eb3-18ab-4df5-9f8b-977a9304d1be)
 
 
@@ -204,6 +210,9 @@ Pongo en base64 este script php:
 - `base64_decode` -> decodificar el  script php en base64 que hicimos
 
 Query para ganar acceso a la maquina:
+
+
+
 ![image](https://github.com/user-attachments/assets/593c465a-c4ba-41ce-8f50-8787b5fe0dc8)
 ![image](https://github.com/user-attachments/assets/54833dc5-a1fa-4111-8dff-15866f1daf30)
 
@@ -219,6 +228,9 @@ Nos conectamos como achilles
 
 
 Con `sudo -l` vemos que podemos ejecutar el binario `go` como root.
+
+
+
 ![image](https://github.com/user-attachments/assets/6dda3791-38b1-4c56-b0c1-734ff06084d5)
 
 
@@ -251,6 +263,8 @@ Ejecutamos con `sudo /usr/local/go/bin/go run go.go`
 
 
 ![image](https://github.com/user-attachments/assets/634f37ef-7dbe-4d95-b62e-0db8308fd913)
+
+
 
 - `go.go ` -> Nombre de mi script
 - `run` -> para que inicie mi script
