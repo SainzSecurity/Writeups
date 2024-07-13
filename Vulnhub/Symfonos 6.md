@@ -108,6 +108,9 @@ document.getElementById("hacked_form").submit();
 ```
 
 Abrimos con Python el puerto 80, donde se encuentra nuestro `pwned.js`.
+
+
+
 ![image](https://github.com/user-attachments/assets/d9fb5817-56f7-4177-91c9-bb655895b98e)
 
 Ponemos un comentario
