@@ -29,6 +29,8 @@ Aplicamos un barrido en la red local utilizando `arp-scan` para encontrar la IP 
 - `--localnet` -> Red local.
 - `--ignoredups` -> Que ignore duplicados.
 
+
+
 Utilizando `nmap` vemos los puertos abiertos.
 ![image](https://github.com/user-attachments/assets/dbcc4648-08ff-4126-8cda-afcb1d2dea2c)
 - `-p-` -> Escanea todos los puertos 
