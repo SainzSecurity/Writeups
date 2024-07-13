@@ -47,6 +47,9 @@ Utilizando `nmap` vemos los puertos abiertos.
 
 
 Utilizando `nmap` lanzamos los scripts mas comunes.
+
+
+
 ![image](https://github.com/user-attachments/assets/58c43f4f-d792-4f2b-9605-a7e27c5318b0)
 - `OpenSSH 7.4` -> Versión SSH desactualizada
 - `PHP 5.6.40` -> Versión PHP desactualizada
