@@ -30,7 +30,7 @@ Aplicamos un barrido en la red local utilizando `arp-scan` para encontrar la I
 - `-I eth0` -> Mi interfaz grafica.
 - `--localnet` -> Red local.
 - `--ignoredups` -> Que ignore duplicados.
-
+<br>
 
 
 Utilizando `nmap` vemos los puertos abiertos.
@@ -49,7 +49,7 @@ Utilizando `nmap` vemos los puertos abiertos.
 - `-vvv` -> Aplica triple Verbose
 - `-n` -> Que no aplique resolución DNS
 - `-oG allports` -> manda todo a un archivo con nombre de "allports"
-
+<br>
 
 Utilizando `nmap` lanzamos los scripts mas comunes.
 
@@ -61,7 +61,7 @@ Utilizando `nmap` lanzamos los scripts mas comunes.
 
 - `OpenSSH 7.4` -> Versión SSH desactualizada
 - `PHP 5.5.38` -> Versión PHP desactualizada
-
+<br>
 Utilizando `gobuster` encontramos varios directorios.
 
 
@@ -75,19 +75,19 @@ Utilizando `gobuster` encontramos varios directorios.
 - `-w` -> Indicar diccionario que voy a utilizar
 - `-t` -> Numero de hilos que voy a usar
 - `-x` -> Extensiones que quiero que pruebe
-
+<br>
 En `config.php.bak` encontramos credenciales para una base de datos
 
 
 
 ![image](https://github.com/user-attachments/assets/39c5c121-5b26-4ecf-9597-6d8aedaac7bf)
-
+<br>
 Utilizando `gobuster` encontramos un subdominio "datasafe".
 
 
 
 ![image](https://github.com/user-attachments/assets/b61e30d8-5968-4096-b19f-6f444876a6bc)
-
+<br>
 Agregamos el dominio y subdominio en `/etc/hosts`
 
 
@@ -95,7 +95,7 @@ Agregamos el dominio y subdominio en `/etc/hosts`
 ![image](https://github.com/user-attachments/assets/ca70c92a-4ae3-41d0-a23a-e7b41b3eaaff)
 
 
-
+<br>
 Entramos con las credenciales del `config.php.bak` que encontramos anteriormente.
 
 
@@ -103,7 +103,7 @@ Entramos con las credenciales del `config.php.bak` que encontramos anteriormente
 ![image](https://github.com/user-attachments/assets/73a251b2-4b27-4757-9ee7-db8aef0d9b6e)
 
 ------
-
+<br>
 # Explotacion PHPMYADMIN
 
 
@@ -115,7 +115,7 @@ Utilizando `searchsploit` vemos que el phpmyadmin 4.8.1 es vulnerable a un RCE:
 
 
 ![image](https://github.com/user-attachments/assets/0c022638-cf01-450b-9d9d-50ee44692a11)
-
+<br>
 
 
 En el código también muestra como explotar un LFI:
@@ -123,7 +123,7 @@ En el código también muestra como explotar un LFI:
 
 
 ![image](https://github.com/user-attachments/assets/0f4296bf-36ce-4d48-9be0-11ab673b5c8d)
-
+<br>
 
 
 Explotación de RCE:
@@ -131,7 +131,7 @@ Explotación de RCE:
 
 
 ![image](https://github.com/user-attachments/assets/645921ad-39ec-4774-a6b0-a9d66b9012ce)
-
+<br>
 
 
 Para que el RCE funcione deben sacarle la "s" a "session" en el script.
@@ -139,7 +139,7 @@ Para que el RCE funcione deben sacarle la "s" a "session" en el script.
 
 
 ![image](https://github.com/user-attachments/assets/dfb50f34-e097-427d-bd12-5d87a3b3b05e)
-
+<br>
 
 ----
 
