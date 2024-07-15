@@ -3,7 +3,7 @@
 Sistema Operativo: Linux
 
 Dificultad: Media
-# <br>
+<br>
 Técnicas Vistas: Web Enumeration /
 Information Leakage /
 Virtual Hosting /
