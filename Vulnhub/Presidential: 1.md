@@ -4,8 +4,6 @@ Sistema Operativo: Linux
 
 Dificultad: Media
 
-<br>
-
 Técnicas Vistas: Web Enumeration /
 Information Leakage /
 Virtual Hosting /
@@ -20,6 +18,7 @@ Te prepara para las Certificaciones: eWPT OSWE eWPTXv2 OSCP
 
 ![image](https://github.com/user-attachments/assets/8fae9c5e-6c42-408b-88e2-787910e75ed4)
 
+<br>
 
 # Reconocimiento
 
