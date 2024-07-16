@@ -61,6 +61,7 @@ Podemos subir archivos, ya que `file_uploads` esta habilitado
 
 ![image](https://github.com/user-attachments/assets/9bcc3c64-7849-4b72-91fc-80945abe9696)
 
+<br><br>
 
 # Explotación File_uploads
 
@@ -110,6 +111,7 @@ Ganamos acceso a la maquina<br>
 ![image](https://github.com/user-attachments/assets/30462227-87d5-47fb-acd0-d8a296700f64)<br>
 
 
+<br><br>
 
 # Escalada de privilegios
 
