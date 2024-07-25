@@ -2,7 +2,7 @@
 
 **Sistema Operativo**: Windows<br>
 
-**Dificultad**: Facil<br>
+**Dificultad**: Fácil<br>
 
 **Técnicas Vistas**: Abusing Printer /
 Abusing Server Operators Group /
