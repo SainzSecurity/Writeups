@@ -2,7 +2,7 @@
 
 **Sistema Operativo**: Linux
 
-**Dificultad**: Facil
+**Dificultad**: Fácil
 
 **Técnicas Vistas**: SQLI (Error Based) /
 SQLI -> RCE (INTO OUTFILE) /
