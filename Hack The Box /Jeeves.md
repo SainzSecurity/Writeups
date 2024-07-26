@@ -9,7 +9,7 @@
 RottenPotato (SeImpersonatePrivilege) /
 PassTheHash (Psexec) /
 Breaking KeePass /
-Alternate Data Streams (ADS) /
+Alternate Data Streams (ADS)
 
 Te prepara para las **Certificaciones**: OSCP / 
 eJPT / 
