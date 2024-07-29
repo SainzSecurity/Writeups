@@ -48,7 +48,7 @@ Aplicamos estos cambios en el `exploit`<br>
 ![image](https://github.com/user-attachments/assets/04ea8ada-2237-4b1a-a559-3107e73685b6)
 
 - `python3 exploit.py` -> Ganamos acceso<br><br>
-
+- `rlwrap nc -nlvp 443`
 
 # Escalada de privilegios
 
