@@ -141,6 +141,8 @@ Tenemos el usuario y contraseña:<br>
 
 ##### Una vez siendo el usuario player: https://gtfobins.github.io/gtfobins/dstat/ <br>
 
+Hacemos find / -perm -4000 2>/dev/null -> Para ver archivos SUID y nos muestra: "/usr/local/bin/doas"<br>
+
 cat /usr/local/etc/doas.conf   -> Vemos si algun usuario puede ejecutar como administrador algo.<br>
 
 Creamos un archivo en la ruta donde podamos escribir puede ser:  `/usr/share/ | grep "dstat"` o `/usr/local/share | grep "dstat"`<br>
